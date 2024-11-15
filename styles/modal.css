@@ -1,0 +1,44 @@
+/* modal window styles declaration */
+.card__main__container {
+  position: relative;
+}
+
+.card_sub_container {
+  height: 87vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  top: var(--size-88px);
+  bottom: 0; 
+  height: 316px;
+  background-color: #f1f2f4;
+  border-radius: var(--size-8px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 72px;
+  gap: var(--size-24px);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.04), 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.dismiss {
+  position: absolute;
+  top: 25;
+  right: 25;
+}
+
+.primary__btn__solid {
+  align-self: center;
+}
+
+.closeWindow {
+  display: none;  /* Hides the modal */
+}

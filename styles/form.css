@@ -1,0 +1,163 @@
+.sub__container {
+  background-color: var(--clr-white);
+  width: 615px;
+  height: 1104px;
+  border-radius: 16px;
+  box-shadow: 3px 3px 30.9px -19px #1a202c;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-56px);
+  align-items: center;
+}
+
+.qualification__container {
+  background-color: var(--clr-white);
+  width: 816px;
+  height: 772px;
+  border-radius: 16px;
+  box-shadow: 3px 3px 30.9px -19px #1a202c;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-56px);
+  align-items: center;
+}
+
+.upper__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  margin-top: 12px;
+}
+
+.logo {
+  width: 116px;
+}
+
+.upper__container h1 {
+  font-size: var(--size-32px);
+}
+
+.multi__input {
+  display: flex;
+  gap: var(--size-16px);
+}
+
+.input__container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-24px);
+}
+
+.input[type="checkbox"] {
+  display: none;
+}
+
+
+  /* Style for the custom checkbox */
+.custom-checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-checkbox::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 2px;
+  opacity: 0;
+}
+
+.input[type="checkbox"]:checked + .custom-checkbox::after {
+  opacity: 1;
+} 
+
+.check__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-8px);
+}
+
+.hobbies__container {
+  display: flex;
+  gap: var(--size-8px);
+}
+
+.hobbies {
+  display: flex;
+  gap: var(--size-16px);
+}
+
+.check__other {
+  align-self: flex-start;
+}
+
+.hobbies_sub {
+  display: flex;
+  gap: 4px;
+}
+
+.other__hobbies {
+  align-self: flex-start;
+}
+
+.button__fields {
+  justify-self: flex-end;
+}
+
+.hobbies__main {
+  margin-top: var(--size-16px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-8px);
+}
+
+.title {
+  display: flex;
+  gap: var(--size-72px);
+}
+
+.classx__container {
+  display: flex;
+  gap: var(--size-16px);
+}
+
+.label__qual {
+  text-align: center;
+}
+
+.for__title {
+  display: flex;
+  align-items: center;
+}
+
+.classx__title {
+  margin-right: var(--size-56px);
+}
+
+.qual__input__container {
+  display: flex;
+  gap: var(si);
+}
+
+.back__btn {
+  margin-right: 204px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 8rem;
+}
+
+.primary__btn__solid {
+  background-color: var(--clr-primary);
+  padding: var(--size-12px) var(--size-64px);
+  font-weight: 500;
+  border-radius: var(--size-8px);
+  align-self: flex-start;
+  color: var(--clr--white);
+}
+
+
+.clear__input__btn {
+  padding: var(--size-12px) var(--size-64px);
+  font-weight: 500;
+  border-radius: var(--size-6px);
+  color: var(--clr-primary);
+  margin-top: var(--size-28px);
+  border: 2px var(--clr-primary) solid;
+} 
+
+.input {
+  min-width: 490px;
+  height: var(--size-40px);
+  margin: 8px 0 0;
+  padding: 0 var(--size-16px);
+  border: solid 1px #e2e8f0;
+  border-radius: var(--size-6px);
+  outline: none;
+}
+
+.label {
+  display: block;
+  font-size: .9rem;
+  font-weight: bold;
+  color: var(--primary-text-clr);
+}
+
+.input__name {
+  min-width: 238px;
+}
+
+.input__course {
+  min-width: 704px;
+  height: var(--size-48px);
+}
+
+.qual__input {
+  height: var(--size-40px);
+  margin: 8px 0 0;
+  padding: 0 var(--size-16px);
+  border: solid 1px #e2e8f0;
+  border-radius: var(--size-6px);
+  outline: none;
+}
+
+tr.spaceUnder>td {
+  padding-bottom: 1em;
+  padding-right: 8px;
+}
+
+.white {
+  color: var(--clr-white);
+}
